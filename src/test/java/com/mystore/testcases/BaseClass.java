@@ -30,7 +30,7 @@ public class BaseClass {
 	public String emailAddress = readConfig.getEmail() ;
 	String password = readConfig.getPassword();
 	
-	
+	// commit
 	public static WebDriver driver;
 	public static Logger logger;
 
