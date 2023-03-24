@@ -94,7 +94,7 @@ public class BaseClass {
 		File src = screenshot.getScreenshotAs(OutputType.FILE);
 		
 		File dest = new File(System.getProperty("user.dir") + "//Screenshots//" + testName + ".png");
-	
+	    //webdriver
 		//step3: copy image file to destination
 		FileUtils.copyFile(src, dest);
 	}
